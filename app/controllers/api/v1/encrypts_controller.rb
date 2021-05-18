@@ -43,7 +43,7 @@ module Api
                 output = ['decrypted_data' => decrypted_data]
 
 
-                render json: {statusCode: '200', message:'Encrypted Successfully', data:output} 
+                render json: {statusCode: '200', message:'Decrypted Successfully', data:output} 
 
             end
 
